@@ -33,6 +33,7 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
 
     - A GCP Project:Create one now in the GCP console and make note of the project id.
     - Google Compute Engine: Enable Google Compute Engine for your project in the GCP console. Make  sure to select the project you are created and click the "Enable" button.
+    - Google Kubernetes Engine: Enable Google Kubernetes Engine for your project in the GCP console.Make sure to select the project you are created and click the "Enable" button. 
     - A GCP service account key: Create a service account key to enable Terraform to access your GCP account.
     When creating the key, use the following settings:
       - Select the project you created in the previous step.
@@ -119,10 +120,7 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
     kubectl get services
     ```
 
-
-    and you will take the External IP of the load balancer and the assigned port like that 
+    **And you will take the External IP of the load balancer and the assigned port like that** 
     ```http:\\34.133.191.251:8000```
 
 ## OUTPUT
-
-![result of get scv](result_Pics/output.png "Output")
