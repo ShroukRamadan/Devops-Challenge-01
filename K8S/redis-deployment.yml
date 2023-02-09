@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-deployment
+  labels:
+    app-redis: redis-dep
+    tier: backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app : redis
+        tier: backend
+    spec:
+      containers:
+      - name: redis-con
+        image: us.gcr.io/shrouk-iti-project/redis:latest
+        ports:
+        - containerPort: 6379

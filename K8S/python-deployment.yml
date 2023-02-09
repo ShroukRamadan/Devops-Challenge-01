@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-deployment
+  labels:
+    app-python: python-dep
+    tier: backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+        app: python
+        tier: frontend
+  template:
+    metadata:
+      labels:
+        app: python
+        tier: frontend
+    spec:
+      containers:
+      - name: python
+        image: us.gcr.io/shrouk-iti-project/python-img:v1.0
+        ports:
+        - containerPort: 8000
+        envFrom:
+         - configMapRef:
+             name: configmap-env
