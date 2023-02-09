@@ -1,6 +1,8 @@
+# Devops-Challenge-01
+
 This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infrastructure as Code Using Terraform and K8S for yml files for kubernetes cluster deployments and services.
 
-## This folder contains the following folders:
+###### This folder contains the following folders:
 
     1. Devops-Challenge-Demo-Code - It contains python code.
     2. IaC-Terraform - It contains the essential files (.tf).
