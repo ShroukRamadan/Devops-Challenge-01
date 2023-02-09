@@ -26,13 +26,7 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
 ## Required Infrastracture 
 
 
-
-
-
-
-
-
-
+![Screenshot from 2023-02-09 16-30-15](https://user-images.githubusercontent.com/57557314/217871474-502744c2-7391-4d5e-9f31-3764cc76432e.png)
 
 
 
@@ -45,9 +39,9 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
 
         A GCP Project:Create one now in the GCP console and make note of the project id.
 
-        Google Compute Engine: Enable Google Compute Engine for your project in the GCP console. Make sure to select the project you are created and click the "Enable" button.
+        Google Compute Engine: Enable Google Compute Engine for your project in the GCP console. Make sure to select the project you are created and click         the "Enable" button.
 
-        A GCP service account key: Create a service account key to enable Terraform to access your GCP account. When creating the key, use the following settings:
+        A GCP service account key: Create a service account key to enable Terraform to access your GCP account. When creating the key, use the following           settings:
             Select the project you created in the previous step.
             Click "Create Service Account".
             Give it name(terraform-sa)  and click "Create".
