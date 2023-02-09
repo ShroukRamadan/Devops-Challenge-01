@@ -1,4 +1,4 @@
-# GCP-project
+# Devops-Challenge-01
 
 This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infrastructure as Code Using Terraform and K8S for yml files for kubernetes cluster deployments and services.
 
