@@ -94,7 +94,7 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
 
     ```bash
     vi configmap-env.yml #then copy configMap.yml file content in it (from K8S folder)
-    kubectl apply -f configmap.yml
+    kubectl apply -f configmap-env.yml
     
     vi redis-deployment.yml #then copy redis-deployment.yml file content in it (from K8S folder)
     kubectl apply -f redis-deployment.yml
