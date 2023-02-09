@@ -11,13 +11,13 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
 ## Dependencies
 
 1. GCP account
-    - You would require to have an GCP account to be able to build cloud infrastructure.
+   - You would require to have an GCP account to be able to build cloud infrastructure.
 
 2. VS code editor
-    - An editor would be helpful to visualize the image as well as code.
+   - An editor would be helpful to visualize the image as well as code.
 
 3. Terraform
-    - You would require to install Terraform to be able to build cloud infrastructure.
+   - You would require to install Terraform to be able to build cloud infrastructure.
 
 4. Git
 
