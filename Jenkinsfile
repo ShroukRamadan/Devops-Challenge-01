@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                 git url:'https://github.com/ShroukRamadan/TerraformPipline',
+                 git url:'https://github.com/ShroukRamadan/Devops-Challenge-01/tree/master/IaC-Terraform',
                  branch:'main',
                  credentialsId:'github-cred'
             }

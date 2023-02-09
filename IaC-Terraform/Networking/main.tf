@@ -19,7 +19,6 @@ resource "google_compute_subnetwork" "public_subnet" {
 
 
 
-
 resource "google_compute_router" "router" {  
   name    = var.router-name
   region  = google_compute_subnetwork.public_subnet.region

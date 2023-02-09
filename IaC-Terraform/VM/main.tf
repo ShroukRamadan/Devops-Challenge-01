@@ -3,7 +3,7 @@ resource "google_compute_instance" "instance" {
   machine_type = var.machine-type
   zone         = var.zone
 
-   boot_disk {
+  boot_disk {
 
     initialize_params {
       image = var.vm-image

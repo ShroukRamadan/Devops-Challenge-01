@@ -12,9 +12,6 @@ module "vpc" {
   source_subnetwork_ip_ranges_to_nat = "LIST_OF_SUBNETWORKS"
   source_ip_ranges_to_nat = ["ALL_IP_RANGES"]
   private_ip_google_access = true
-
-
-
   
 }
 
