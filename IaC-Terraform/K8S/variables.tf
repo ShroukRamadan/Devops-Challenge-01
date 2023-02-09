@@ -6,11 +6,11 @@ variable "cluster-location" {
   
 }
 
-variable " remove_default_node_pool" {
+variable "remove_default_node_pool" {
   
 }
 
-variable "initial_node_count " {
+variable "initial_node_count" {
   
 }
 
@@ -22,7 +22,7 @@ variable "enable_private_endpoint" {
   
 }
 
-variable " enable_private_nodes " {
+variable "enable_private_nodes" {
   
 }
 
@@ -60,7 +60,7 @@ variable "machine_type" {
   
 }
 
-variable " oauth_scopes" {
+variable "oauth_scopes" {
   
 }
 

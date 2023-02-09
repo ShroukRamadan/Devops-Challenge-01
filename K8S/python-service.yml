@@ -9,5 +9,5 @@ spec:
   ports:
   - port: 8000
   selector:
-    app: python
+    app: python-deployment
     tier: frontend

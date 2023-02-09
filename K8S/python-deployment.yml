@@ -3,8 +3,7 @@ kind: Deployment
 metadata:
   name: python-deployment
   labels:
-    app-python: python-dep
-    tier: backend
+    app: python-deployment
 spec:
   replicas: 3
   selector:

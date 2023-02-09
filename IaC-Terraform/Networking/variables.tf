@@ -37,7 +37,7 @@ variable "region" {
   
 }
 
-variable "nat_ip_allocate_option " {
+variable "nat_ip_allocate_option" {
   
 }
 
