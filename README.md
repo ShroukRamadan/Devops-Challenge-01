@@ -4,7 +4,7 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
 
 ## This folder contains the following folders
 
-1. Devops-Challenge-Demo-Code - It contains python code.
+1. Devops-Challenge-Demo-Code - It contains python code and Dockerfile.
 2. IaC-Terraform - It contains the essential files (.tf).
 3. K8S - It contains the essential files (.yml).
 
