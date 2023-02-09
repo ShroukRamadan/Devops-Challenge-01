@@ -124,3 +124,4 @@ This folder provides the Devops-Challenge-Demo-Code and IaC-Terraform for Infras
     ```http:\\34.133.191.251:8000```
 
 ## OUTPUT
+![Screenshot from 2023-02-09 22-01-09](https://user-images.githubusercontent.com/57557314/217924600-9df59ae1-94f5-4261-98a0-f63bee559eb1.png)
