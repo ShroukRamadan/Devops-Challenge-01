@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: python-deployment
-  labels:
-    app: python-deployment
 spec:
   replicas: 3
   selector:
@@ -14,10 +12,10 @@ spec:
     metadata:
       labels:
         app: python
-        tier: frontend
+        tier: frontend        
     spec:
       containers:
-      - name: python
+      - name: python-con
         image: us.gcr.io/shrouk-iti-project/python-img:v1.0
         ports:
         - containerPort: 8000
